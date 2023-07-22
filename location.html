@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homepage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins", sans-serif}
+.menu {display: none}
+.bgimg 
+{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("");
+  min-height: 90%;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-right w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-red" id="myNavbar">
+    <a onclick="document.location='index.html'"  href="#home">Home</a>
+    <a onclick="document.location='aboutme.html'" href="#about me">About Me</a>
+    <a onclick="document.location='contact.html'" href="#contact">Contact</a>
+    <a onclick="document.location='location.html'" class="active" href="#location">Location</a>
+    </div>
+  </div>
+</div>
+  
+<!-- Menu Container -->
+<div class="w3-container w3-white w3-padding-64" id="about">
+    <div class="w3-content">
+        <h1>Negeri Sembilan's Map</h1>
+        <!-- Image Map -->
+        <img src="image/N9 maps.jpg" usemap="#image-map">
+        <map name="image-map">
+            <area target="_blank" alt="SMKWP" title="SMKWP" href="https://www.instagram.com/pss.smkwp/" coords="154,287,78" shape="circle">
+            <area target="_blank" alt="UiTM Rembau" title="UiTM Rembau" href="https://nsembilan.uitm.edu.my/rembau/" coords="258,386,52" shape="circle">
+        </map>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-48 w3-large">
+    <p><i><font color="lightgrey">    &copy; 2023 | Made by Yusri</font></i></p>
+  </footer>
+
+</body>
+</html>
